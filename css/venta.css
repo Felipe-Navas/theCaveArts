@@ -1,0 +1,29 @@
+.btn_add {
+	-moz-box-shadow:inset 0px 0px 0px 0px #db766d;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #db766d;
+	box-shadow:inset 0px 0px 0px 0px #db766d;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #121010) );
+	background:-moz-linear-gradient( center top, #fe1a00 5%, #121010 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#121010');
+	background-color:#fe1a00;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:2px solid #ffffff;
+	display:inline-block;
+	color:#fffcff;
+	font-family: Roboto Lt,"Lato", sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	padding:7px 16px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #c42a20;
+}.btn_add:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #121010), color-stop(1, #fe1a00) );
+	background:-moz-linear-gradient( center top, #121010 5%, #fe1a00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#121010', endColorstr='#fe1a00');
+	background-color:#121010;
+}.btn_add:active {
+	position:relative;
+	top:1px;
+}

@@ -1,0 +1,134 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+}
+body {
+	font-family: Roboto Lt,"Lato", sans-serif;
+}
+#header_wrapper {
+	background:#282828;
+	height:56px;
+}
+#header {
+	margin:0px auto;
+	width:960px;
+}
+h1 {
+	float:left;
+	font-size:14px;
+	color:#fff;
+	margin-top:20px;
+}
+h2 {
+	color:#ed1c24;
+	font-family: Roboto Lt,"Lato", sans-serif;
+}
+.login_btn {
+	text-decoration:none;
+	text-shadow:1px 1px 0 #000;
+	-moz-text-shadow:1px 1px 0 #000;
+	-webkit-text-shadow:1px 1px 0 #000;
+	color:#fff;
+	font-weight:bold;
+	font-size:13px;
+	margin-top:11px;
+	background:#151515;
+	float:right;
+	height:32px;
+}
+.login_btn:hover {
+	background:#c0392b;
+}
+.lnk{
+	margin: 0px 3% 0 0;
+}
+.login_btn span {
+	color:;
+	float:left;
+	padding:0 10px 0 10px;
+	text-align:center;
+	margin-top: 8px;
+}
+.triangle {
+	float:left;
+	width:0px;
+	height:0px;
+	margin:14px 9px 0 0;
+	border-left:5px solid transparent;
+	/* left arrow slant */
+	border-right:5px solid transparent;
+	/* right arrow slant */
+	border-top:5px solid #fff;
+	/* bottom,add background color here */
+	font-size:0px;
+	line-height:0px;
+}
+#content {
+	height:733px;
+	background:url('img/bg_1.jpg') center;
+}
+#login_box {
+	display:none;
+	position:absolute;
+	width:236px;
+	margin:2px 0 0 75%;
+}
+
+#tab-logd {
+	background:#282828;
+	width:140px;
+	float:right;
+	height:38px;
+	-webkit-box-shadow: 0 1px 1px rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
+	-moz-box-shadow: 0 1px 1px rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
+	box-shadow: 0 1px 1px rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
+}
+
+#tab .login_btn {
+	float:left;
+	margin:9px 0 0 9px;
+}
+#login_box_content {
+	background:#282828;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	float:left;
+	width:236px;
+}
+#login_form {
+	margin:9px 0 0 9px;
+}
+#login_form input[type=text], #login_form input[type=password] {
+	background-color:#ed1c24;
+	border-radius:3px;
+	font:italic 14px Georgia,times,sans-serif;
+	height:37px;
+	width:205px;
+	margin-top:10px;
+	padding-left:10px;
+	-webkit-box-shadow: 0 1px 1px rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
+	-moz-box-shadow: 0 1px 1px rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
+	box-shadow: 0 1px 1px rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
+
+}
+
+#login_form input[type=submit], #login_form button[type=submit]{
+	border:none;
+
+	background-color:#ed1c24;
+	color:#282828;
+	float:right;
+	margin:9px 9px 9px 0;
+	width:56px;
+	height: 29px;
+    -webkit-box-shadow: 0 1px 2px rgba(231, 76, 60,.6), inset 0 4px 5px rgba(0,0,0,.6), inset 0 2px 2px rgba(39, 174, 96,.4);
+	-moz-box-shadow: 0 1px 2px rgba(231, 76, 60,.6), inset 0 4px 5px rgba(231, 76, 60,.6), 0 2px 2px rgba(231, 76, 60,.6);
+	box-shadow: 0 1px 2px rgba(231, 76, 60,.6), inset 0 4px 5px (231, 76, 60,.6), 0 2px 2px rgba(231, 76, 60,.6);
+	
+
+}
